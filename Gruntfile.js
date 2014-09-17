@@ -25,4 +25,12 @@ module.exports = function (grunt) {
 
   grunt.registerTask('default',['uglify']);
 
+
+  // tarea en grunt que le dice que debe pintar algo
+  grunt.registerTask('pinta', function(){
+
+  	grunt.log.write('grunt xD');
+
+  });
+
 };
