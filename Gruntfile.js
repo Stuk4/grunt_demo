@@ -29,6 +29,7 @@ module.exports = function (grunt) {
   // tarea en grunt que le dice que debe pintar algo
   grunt.registerTask('pinta', function(){
 
+  	require('logfile-grunt')(grunt, { filePath: './logs/MyDevLog.txt', clearLogFile: false });
   	grunt.log.write('grunt xD');
 
   });
